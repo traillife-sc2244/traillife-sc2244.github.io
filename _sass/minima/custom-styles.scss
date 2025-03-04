@@ -1,0 +1,67 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+.logo {
+    width: 256px;
+}
+
+.logo a:hover {
+    text-decoration: none;
+}
+
+.header_logo {
+    width: 256px;
+}
+
+.header_text {
+    line-height: 24px;
+    font-family: enriqueta,serif;
+    color: #B92833;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+}
+
+a.blended-link:link {
+    text-decoration: underline;
+    color: #828282;
+}
+
+a.blended-link:visited {
+    text-decoration: underline;
+    color: #828282;
+}
+
+img.img_thumb {
+    // width: 192px;
+    height: 96px;
+    padding: 5px 0px;
+}
+
+.photo-header{
+    text-align: center;
+}
+
+.photo {
+    display: inline;
+}
+
+.photo-hr {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.footer-verse {
+    font-family: enriqueta,serif;
+    color: #B92833;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer-verse-text {
+    font-style: italic;
+}
+
+.footer-verse-ref {
+    text-align: right;
+    padding: 0 40px 0 0;
+}

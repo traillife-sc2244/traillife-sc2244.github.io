@@ -1,0 +1,33 @@
+<div id="{{include.albumname}}">
+    <h3 class="photo-header">{{include.albumname | replace:"_", " " }}</h3>
+    {%- for image in site.static_files -%}
+        {%- if image.path contains 'thumbnails' -%}
+        {%- else -%}
+            {%- if image.path contains 'images/gallery' and image.path contains include.albumname -%}
+            {% assign path_parts = image.path | split: "/" %}
+            {% assign last_index = path_parts.size | minus: 1 %}
+            {% assign directory_path = path_parts[0] %}
+
+            {% for i in (1..last_index) %}
+                {% if forloop.last == false %}
+                    {% assign directory_path = directory_path | append: "/" | append: path_parts[i] %}
+                {% endif %}
+            {% endfor %}
+            <div class="photo" data-src="{{ image.path }}">
+                    <img class="img_thumb" src="{{ directory_path }}/thumbnails/{{ image.name }}" />
+            </div>
+            {%- endif -%}
+        {%- endif -%}
+    {%- endfor -%}
+    <hr class="photo-hr"/>
+</div>
+<script>
+    lightGallery(document.getElementById('{{include.albumname}}'), {
+        thumbnail:true,
+        thumbHeight: "96px",
+        zoom: true,
+        selector: '.photo',
+        plugins: [lgZoom, lgThumbnail],
+        speed: 500,
+        });
+</script>

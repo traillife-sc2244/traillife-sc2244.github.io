@@ -1,0 +1,89 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Trail Life - Troop SC-2244
+author:
+  name: Trail Life Troop SC-2244
+  email: traillifesc2244@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  The goal of Troop 2244 is to develop Godly young men in the Pickens area that will influence our community
+  and world for many years to come.  We do that through teaching young men what a Godly man looks like based
+  on strong Biblical principles and through teaching real-world skills that they will take with them for the
+  rest of their lives.
+domain: traillife-sc2244.github.io
+baseurl: "" # the subpath of your site, e.g. /blog
+url: http://traillife-sc2244.github.io # the base hostname & protocol for your site, e.g. http://example.com
+# github_username:  traillife-sc2244
+
+header_pages:
+  - calendar.md
+  - gallery.md
+  - about.md
+  - contact.md
+  - faq.md
+
+footer:
+  verse_ref: "Colossians 1:10 ESV"
+  verse_text: "Walk in a manner worthy of the Lord, fully pleasing to him: bearing fruit in every good work and increasing in the knowledge of God"
+
+# Build settings
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-email-protect
+
+minima:
+  social_links:
+    - title: SC-2244 Facebook Page
+      icon: facebook
+      url: "https://www.facebook.com/Traillife2244"
+    - title: SC-2244 Instagram
+      icon: instagram
+      url: "https://www.instagram.com/traillifesc2244"
+    - title: SC-2244 Source
+      icon: github
+      url: "https://github.com/traillife-sc2244"
+
+# remote_theme: pages-themes/cayman@v0.2.0
+# plugins:
+# - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - scripts/
