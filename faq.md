@@ -19,9 +19,9 @@ On certain dates throughout the program year the troop also holds Hit the Trail 
 <br />
 <details>
 <summary><strong><u>How much does Trail Life USA cost?</u></strong></summary>
-Yearly membership dues are $30.70 per boy. This is paid directly to the national organization and covers liability insurance for the variety of activities we plan and host each year. The troop also has yearly dues of $25 per trailman, with a family max of $50 per year. Dues are required to be paid upon joining the troop.
+Yearly membership dues are about $30-40 per boy (set at the national level). This is paid directly to the national organization and covers liability insurance for the variety of activities we plan and host each year. The troop also has yearly dues of $25 per trailman, with a family max of $50 per year. Dues are required to be paid upon joining the troop.
 <br /><br />
-Yearly membership dues for registered adults are $35.68 and include insurance coverage for events, a background check, and Child Protection Safety Training.  We do not require all parents to register in order for their boys to be in the troop, but in order to volunteer with the troop or serve in any leadership capacity they must go through this process. This is to further ensure the safety of every boy in the troop.
+Yearly membership dues for registered adults are about $35-45 and include insurance coverage for events, a background check, and Child Protection Safety Training.  We do not require all parents to register in order for their boys to be in the troop, but in order to volunteer with the troop or serve in any leadership capacity they must go through this process. This is to further ensure the safety of every boy in the troop.
 <br /><br />
 In addition to membership fees, each troop member will need to purchase a uniform shirt, which is also available directly from TLUSA, at a cost of approx $50.  We do not ask you to do that until you have been able to attend a few meetings and are sure that TLUSA is a good fit for your son. We will also provide an opportunity to place your order in the fall as part of a large group order in order to reduce shipping costs.
 <br /><br />
