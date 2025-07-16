@@ -2,47 +2,20 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Trail Life USA Troop SC-2244
-layout: page
+layout: home
 ---
 
-## Who We Are
+## Welcome
 
-Trail Life USA partners with churches and parents across America as the premier national character development organization for young men which produces the next generation of godly and responsible husbands, fathers, and citizens.
-
-Our goal in Troop 2244 is to develop Godly young men in the Pickens area that will influence our community and world for many years to come. We do that through teaching young men what a Godly man looks like based on strong Biblical principles and through teaching real-world skills that they will take with them for the rest of their lives.
+Our goal in __Troop 2244__ is to develop Godly young men in the Pickens area that will influence our community and world for many years to come. We do that through teaching young men what a Godly man looks like based on strong Biblical principles and through teaching real-world skills that they will take with them for the rest of their lives.
 
 > **1 Corinthians 16:13**<br />
 > "Be watchful, stand firm in the faith, act like men, be strong."
 
 ### Meeting Information
 **Location:** East Pickens Baptist Church - Miracle Building <br />
-**Address:** 2244 Gentry Memorial Hwy, Pickens, South Carolina 29671 <br />
+**Address:** <a href="http://maps.google.com/?daddr=2244+Gentry+Memorial+Hwy+Pickens+South+Carolina" target="_blank">2244 Gentry Memorial Hwy, Pickens, South Carolina 29671</a> <br />
 **When:** Every Thursday from 6:15-8:00pm
-
-## What We Do
-
-### Character Development
-- Making a difference in the lives of young men
-- Character development based on Biblical principles
-- Mentorship and team-building
-
-### Adventure & Skills
-- Outdoor Skills training
-- Outdoor Activities and adventures
-- Real-world skill development
-
-### Service & Community
-- Service Projects
-- Community Involvement
-- Leadership development
-
-## Our Program Structure
-
-Trail Life USA serves boys from age 5 (by Oct 31) to 17 through three distinct programs:
-
-- **Woodlands Trail** (K5 - 5th Grades)
-- **Navigators** (6th - 8th Grades)
-- **Adventurers** (9th-12th Grades)
 
 ## Trail Life USA: Christ-Centered, Boy-Focused
 
