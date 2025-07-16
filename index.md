@@ -7,12 +7,13 @@ layout: home
 
 ## Welcome
 
-Our goal in __Troop 2244__ is to develop Godly young men in the Pickens area that will influence our community and world for many years to come. We do that through teaching young men what a Godly man looks like based on strong Biblical principles and through teaching real-world skills that they will take with them for the rest of their lives.
+Our goal in Troop 2244 is to develop Godly young men in the Pickens area that will influence our community and world for many years to come. We do that through teaching young men what a Godly man looks like based on strong Biblical principles and through teaching real-world skills that they will take with them for the rest of their lives.
 
 > **1 Corinthians 16:13**<br />
 > "Be watchful, stand firm in the faith, act like men, be strong."
 
-### Meeting Information
+## Meeting Information
+
 **Location:** East Pickens Baptist Church - Miracle Building <br />
 **Address:** <a href="http://maps.google.com/?daddr=2244+Gentry+Memorial+Hwy+Pickens+South+Carolina" target="_blank">2244 Gentry Memorial Hwy, Pickens, South Carolina 29671</a> <br />
 **When:** Every Thursday from 6:15-8:00pm

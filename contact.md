@@ -13,23 +13,23 @@ order: 4
   <div class="form-control"><label>
     Name:
     <input type="text" name="name">
-  </label><br /><br />
+  </label>
   </div>
   <div class="form-control"><label>
     Email:
     <input type="email" name="email">
-  </label><br /><br />
+  </label>
   </div>
   <div class="form-control"><label>
     Zip:
     <input type="text" name="zip" placeholder="29671">
-  </label><br /><br />
+  </label>
   </div>
   <div class="form-control"><label>
     Message:
     <textarea name="message" id="comment" placeholder="Anything else we should know?"></textarea>
-  </label><br /><br />
+  </label>
   </div>
   <!-- your other form fields go here -->
-  <button type="submit" class="link_button">Send</button>
+  <button type="submit" class="link_button"><span>Send </span></button>
 </form>
