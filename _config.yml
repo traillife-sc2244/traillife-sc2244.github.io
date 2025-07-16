@@ -34,8 +34,9 @@ url: http://traillife-sc2244.github.io # the base hostname & protocol for your s
 
 header_pages:
   - calendar.md
-  - gallery.md
+  # - gallery.md
   - about.md
+  - donate.md
   - contact.md
   - faq.md
 

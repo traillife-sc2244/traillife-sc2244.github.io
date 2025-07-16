@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-order: 3
+order: 2
 ---
 
 ## __Who We Are__
