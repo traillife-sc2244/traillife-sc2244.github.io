@@ -12,19 +12,19 @@ order: 4
   <label>
     Name:
     <input type="text" name="name">
-  </label>
+  </label><br /><br />
   <label>
     Email:
     <input type="email" name="email">
-  </label>
+  </label><br /><br />
   <label>
     Zip:
     <input type="text" name="zip" placeholder="29671">
-  </label>
+  </label><br /><br />
   <label>
-    Your message:
+    Message:
     <textarea name="message"></textarea>
-  </label>
+  </label><br /><br />
   <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+  <button type="submit" class="link_button">>Send</button>
 </form>

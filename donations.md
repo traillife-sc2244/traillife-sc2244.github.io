@@ -24,4 +24,4 @@ While financial contributions are never expected, those who wish to support our 
 
 ## Donation and Payment link
 
-<a href="https://eastpickens.churchcenter.com/giving/to/next-gen-trail-life-fund?open-in-church-center-modal=true" data-church-center-modal>Donate Here</a>
+<a href="https://eastpickens.churchcenter.com/giving/to/next-gen-trail-life-fund?open-in-church-center-modal=true" class="link_button" data-church-center-modal>Donate Here</a>
