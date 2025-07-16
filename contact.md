@@ -31,5 +31,5 @@ order: 4
   </label>
   </div>
   <!-- your other form fields go here -->
-  <button type="submit" class="link_button"><span>Send </span></button>
+  <button type="submit" class="form_button"><span>Send </span></button>
 </form>
