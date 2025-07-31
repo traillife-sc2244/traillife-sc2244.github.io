@@ -1,4 +1,11 @@
 <ul class="social-media-list">
+    {% if site.partner.site %}
+      <li>
+        <a rel="me" href="{{ site.partner.site }}" target="_blank" title="{{ site.partner.name }}">
+          <span class="grey fa-brands fa-lg"><img src="{{ '/' | relative_url }}assets/images/{{ site.partner.logo }}" alt="{{ site.partner.name }}" height="18px" /></span>
+        </a>
+      </li>
+    {% endif %}
     {%- for entry in site.minima.social_links -%}
       <li>
         <a rel="me" href="{{ entry.url }}" target="_blank" title="{{ entry.title }}">

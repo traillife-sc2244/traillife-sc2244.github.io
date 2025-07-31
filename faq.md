@@ -7,7 +7,7 @@ order: 5
 
 <details>
 <summary><strong><u>When / where does Troop SC-2244 meet?</u></strong></summary>
-Troop SC-2244 is chartered with East Pickens Baptist Church, a Southern Baptist Church located on Gentry Memorial Hwy between Pickens and Easley, SC. <a href="www.eastpickens.org" target="_blank">EastPickens.org</a>
+Troop SC-2244 is chartered with East Pickens Baptist Church, a Southern Baptist Church located on Gentry Memorial Hwy between Pickens and Easley, SC. <a href="https://www.eastpickens.org" target="_blank">EastPickens.org</a>
 <br /><br />
 The troop meets every Thursday night from 6:15 - 8:00 for regular troop meetings. During these meetings the trailmen participate in a devotional time and work towards earning branches or badges for the various troop levels through instructional and hands-on activities. Each second Thursday of the month the trailmen focus on the Worthy Life Award, the spiritual development component of Trail Life USA.
 <br /><br />

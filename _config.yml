@@ -31,6 +31,10 @@ domain: traillife-sc2244.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://traillife-sc2244.github.io # the base hostname & protocol for your site, e.g. http://example.com
 # github_username:  traillife-sc2244
+partner:
+  name: AHG SC-4224
+  site: http://ahg2244.com/
+  logo: ahg_logo.png
 
 header_pages:
   - calendar.md
