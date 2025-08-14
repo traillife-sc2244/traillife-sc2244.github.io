@@ -22,11 +22,6 @@ title: Trail Life - Troop SC-2244
 author:
   name: Trail Life Troop SC-2244
   email: traillifesc2244@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  The goal of Troop 2244 is to develop Godly young men in the Pickens area that will influence our community
-  and world for many years to come.  We do that through teaching young men what a Godly man looks like based
-  on strong Biblical principles and through teaching real-world skills that they will take with them for the
-  rest of their lives.
 domain: traillife-sc2244.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://traillife-sc2244.github.io # the base hostname & protocol for your site, e.g. http://example.com
@@ -40,7 +35,7 @@ header_pages:
   - calendar.md
   # - gallery.md
   - about.md
-  - donations.md
+  - payments.md
   - contact.md
   - faq.md
 

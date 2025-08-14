@@ -5,31 +5,4 @@ permalink: /contact/
 order: 4
 ---
 
-<form
-  action="https://formspree.io/f/mblkjwgp"
-  method="POST"
-  class="form"
->
-  <div class="form-control"><label>
-    Name:
-    <input type="text" name="name">
-  </label>
-  </div>
-  <div class="form-control"><label>
-    Email:
-    <input type="email" name="email">
-  </label>
-  </div>
-  <div class="form-control"><label>
-    Zip:
-    <input type="text" name="zip" placeholder="29671">
-  </label>
-  </div>
-  <div class="form-control"><label>
-    Message:
-    <textarea name="message" id="comment" placeholder="Anything else we should know?"></textarea>
-  </label>
-  </div>
-  <!-- your other form fields go here -->
-  <button type="submit" class="form_button"><span>Send </span></button>
-</form>
+<iframe style="width: 100%; margin: 0px auto; display: block;" xml="lang" src="https://www.traillifeconnect.com/connect/tkkxlmymkqyy?embed=true" width="100%" height="815" frameborder="0" scrolling="yes" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" data-service="traillifeconnect"></iframe>

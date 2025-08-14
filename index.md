@@ -16,7 +16,7 @@ Our goal in Troop 2244 is to develop Godly young men in the Pickens area that wi
 
 **Location:** East Pickens Baptist Church - Miracle Building <br />
 **Address:** <a href="http://maps.google.com/?daddr=2244+Gentry+Memorial+Hwy+Pickens+South+Carolina" target="_blank">2244 Gentry Memorial Hwy, Pickens, South Carolina 29671</a> <br />
-**When:** Every Thursday from 6:15-8:00pm
+**When:** 1<sup>st</sup>, 2<sup>nd</sup>, and 3<sup>rd</sup> Thursday from 6:15-8:00pm
 
 ## Trail Life USA: Christ-Centered, Boy-Focused
 
@@ -30,4 +30,4 @@ Trail Life USA is a Church-Based, Christ-Centered, Boy-Focused mentoring and dis
 
 The best support you can give is to join our troop and be a part of this great community. We welcome boys ages 5-17 and their families to experience the adventure, character development, and leadership opportunities that Trail Life USA provides.
 
-For more information about joining or supporting our troop, <a href="./contact">contact</a> or <a href="mailto:traillifesc2244@gmail.com">email us</a>.
+For more information about joining or supporting our troop, <a href="./contact">reach out today</a>!
