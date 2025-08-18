@@ -11,9 +11,9 @@ order: 2
 
 Trail Life USA partners with churches and parents across America as the premier national character development organization for young men which produces the next generation of godly and responsible husbands, fathers, and citizens.
 
-__Trail Life USA is an environment where boys thrive!__ Adults are equipped to lead a program in a structured outdoor environment where boys are engaged in real-world challenge and experience camping, hiking, and fishing; they develop skills in riflery, archery, and canoeing; and learn character and leadership in a practical hands-on manner that is naturally engaging.
+__Trail Life USA is an environment where boys thrive!__ Adults are equipped to lead a program in a structured, outdoor environment where boys are engaged in real-world challenges as they experience outdoor activities such as camping, hiking, and fishing. They develop skills in riflery, archery, and canoeing; and they develop character and leadership through practical, real-world experiences that are naturally engaging and increasingly challenging.
 
-Boys find mentors, important relationships are fostered, fathers and sons connect, and boys find opportunities to achieve significant accomplishment.
+Fathers and sons connect, boys find mentors, peer relationships are formed and Godly community is developed as boys develop strength of body, soul and spirit, encouraging each other to become Godly men who serve one another, their community, and their country.
 
 "Be watchful, stand firm in the faith, act like men, be strong."
 -- ​__1 Corinthians 16:13__
@@ -40,7 +40,7 @@ Boys find mentors, important relationships are fostered, fathers and sons connec
 
 ## __Our Program Structure__
 
-Trail Life USA serves boys from age 5 (by Oct 31) to 17 through three distinct programs:
+Trail Life USA serves boys from age 5 to 17 through three distinct programs:
 
 - **Woodlands Trail** (K5 - 5th Grades)
 - **Navigators** (6th - 8th Grades)

@@ -16,7 +16,7 @@ Our goal in Troop 2244 is to develop Godly young men in the Pickens area that wi
 
 **Location:** East Pickens Baptist Church - Miracle Building <br />
 **Address:** <a href="http://maps.google.com/?daddr=2244+Gentry+Memorial+Hwy+Pickens+South+Carolina" target="_blank">2244 Gentry Memorial Hwy, Pickens, South Carolina 29671</a> <br />
-**When:** 1<sup>st</sup>, 2<sup>nd</sup>, and 3<sup>rd</sup> Thursday from 6:15-8:00pm
+**When:** 1<sup>st</sup>, 2<sup>nd</sup>, and 3<sup>rd</sup> Thursdays from 6:15-8:00pm
 
 ## Trail Life USA: Christ-Centered, Boy-Focused
 
