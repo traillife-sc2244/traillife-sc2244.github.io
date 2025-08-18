@@ -5,15 +5,15 @@ permalink: /payments/
 order: 3
 ---
 
-## Event Payments and Troop Dues
+## Event Payments
 
 If a Trail Life event requires payment, a payment link will be provided in the specific Trail Life Connect calendar event details section.
 
-## Troop Expense Payments
+## Local Troop Dues
 
-For annual troop dues and all other payments, please use the buttons below.
+For annual local troop dues, please use the button below. You can also purchase the handbooks and custom troop patch using this link.
 <br /><br />
-<a href="https://eastpickens.churchcenter.com/registrations/events/2965278" class="link_button" target="_blank">Pay Troop Dues</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://eastpickens.churchcenter.com/giving/to/next-gen-trail-life-fund?open-in-church-center-modal=true" class="link_button" data-church-center-modal>Pay Other Troop Expense</a>
+<a href="https://eastpickens.churchcenter.com/registrations/events/2965278" class="link_button" target="_blank">Pay Registration</a><!--&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://eastpickens.churchcenter.com/giving/to/next-gen-trail-life-fund?open-in-church-center-modal=true" class="link_button" data-church-center-modal>Pay Other Troop Expense</a>-->
 
 ## Donations
 
