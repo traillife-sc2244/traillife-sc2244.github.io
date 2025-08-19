@@ -16,15 +16,15 @@ jobs:
         ref: dev
         fetch-depth: 0  # Fetch full history for proper git operations
 
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.1'
-        bundler-cache: true
+    # - name: Setup Ruby
+    #   uses: ruby/setup-ruby@v1
+    #   with:
+    #     ruby-version: '3.1'
+    #     bundler-cache: true
 
-    - name: Build Jekyll site
-      run: |
-        bundle exec jekyll build
+    # - name: Build Jekyll site
+    #   run: |
+    #     bundle exec jekyll build
 
     - name: Deploy to second repository
       uses: peaceiris/actions-gh-pages@v3
