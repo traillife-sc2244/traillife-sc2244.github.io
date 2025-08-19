@@ -1,34 +1,49 @@
-name: Mirror Dev Branch to Second Repo
+name: Mirror dev to repo2/src
 
 on:
   push:
     branches: [ dev ]
-  workflow_dispatch:  # Allows manual triggering
+  workflow_dispatch:
 
 jobs:
-  mirror-dev:
+  mirror:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout dev branch
+    - name: Checkout dev
       uses: actions/checkout@v4
       with:
         ref: dev
         fetch-depth: 0
 
-    - name: Prepare deploy dir (exclude .github)
+    - name: Stage content (exclude .git and .github from repo1)
       run: |
-        rsync -av --delete ./ ./deploy-src/ \
+        rm -rf staging && mkdir -p staging
+        rsync -av --delete ./ staging/ \
           --exclude='.git' \
           --exclude='.github'
 
-    - name: Deploy to second repository
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        external_repository: traillife-sc2244/traillife-sc2244-dev.github.io
-        publish_branch: main
-        publish_dir: ./deploy-src
-        commit_message: 'Mirror dev (excluding .github): ${{ github.sha }}'
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
+    - name: Push into dev repo src (preserve dev repo root and .github)
+      env:
+        REPO2: traillife-sc2244/traillife-sc2244-dev.github.io
+        TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      run: |
+        set -euo pipefail
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+        git clone --depth=1 https://x-access-token:${TOKEN}@github.com/${REPO2}.git repo2
+        cd repo2
+        git checkout main || git checkout -b main
+
+        # Sync staging into src/ only, leaving everything else (including .github) untouched
+        mkdir -p src
+        rsync -av --delete ../staging/ ./src/
+
+        # Commit only if there are changes
+        if [[ -n "$(git status --porcelain)" ]]; then
+          git add -A
+          git commit -m "Mirror from repo1 dev into src/: ${GITHUB_SHA}"
+          git push origin main
+        else
+          echo "No changes to commit."
+        fi
