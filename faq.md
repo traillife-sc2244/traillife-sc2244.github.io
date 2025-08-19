@@ -74,9 +74,11 @@ able to be an Adventurer, even if he has not yet graduated high school.
 <br />
 <details>
 <summary><strong><u>Are non-Christians allowed to join TLUSA?</u></strong></summary>
-Our Member Policy allows for boys of any faith (or no faith at all) to participate in the program of Trail Life USA.
+The Member Policy allows for boys of any faith (or no faith at all) to participate in the program of Trail Life USA.
 <br /><br />
-The Local Charter Organization (East Pickens Baptist Church, in our case) defines satisfy the specific ministry goals of their church or organization. In some cases, that may be as an outreach ministry to boys in the community. In other cases, that may be as an in-reach ministry specifically to minister to the families or members of the local church or organization. Therefore, individual Charter Organizations may have more specific membership requirements that limit Troop membership to boys of a certain faith or membership in a certain organization.
+The Local Charter Organization (East Pickens Baptist Church, in our case) defines the specific ministry goals of their church or organization. In some cases, that may be as an outreach ministry to boys in the community. In other cases, that may be as an in-reach ministry specifically to minister to the families or members of the local church or organization. Therefore, individual Charter Organizations may have more specific membership requirements that limit Troop membership to boys of a certain faith or membership in a certain organization.
+<br /><br />
+The policy of East Pickens Baptist Church is that any boy who would like to join our troop is welcome, regardless of his religious beliefs. However, any adult who desires to become a Registered Adult or part of our leadership team must be willing to sign the <a href="https://www.traillifeusa.com/statement-of-faith" target="_blank" class="faq">Statement of Faith and Values</a> found on Trail Life USA's website.
 </details>
 
 <br />
