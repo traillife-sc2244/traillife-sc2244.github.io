@@ -54,7 +54,7 @@ All boys, ages 5 through 17, are welcome regardless of religion, race, national 
 
 <br />
 <details>
-<summary><strong><u>What are the ages for the troops?</u></strong></summary>
+<summary><strong><u>What are the Levels within Trail Life?</u></strong></summary>
 <strong>Foxes:</strong> K-5 and 1<sup>st</sup> Graders
 <br /><br />
 <strong>Hawks:</strong> 2<sup>nd</sup> and 3<sup>rd</sup> Graders
