@@ -16,13 +16,19 @@ jobs:
         ref: dev
         fetch-depth: 0
 
-    - name: Push dev branch to second repository
+    - name: Prepare deploy dir (exclude .github)
+      run: |
+        rsync -av --delete ./ ./deploy-src/ \
+          --exclude='.git' \
+          --exclude='.github'
+
+    - name: Deploy to second repository
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         external_repository: traillife-sc2244/traillife-sc2244-dev.github.io
-        publish_branch: main   # or whatever branch the second repo expects as its Pages source
-        publish_dir: ./        # push the entire repo contents
-        commit_message: 'Mirror dev branch: ${{ github.sha }}'
+        publish_branch: main
+        publish_dir: ./deploy-src
+        commit_message: 'Mirror dev (excluding .github): ${{ github.sha }}'
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'

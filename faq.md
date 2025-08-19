@@ -5,6 +5,7 @@ permalink: /faq/
 order: 5
 ---
 
+
 <details>
 <summary><strong><u>When / where does Troop SC-2244 meet?</u></strong></summary>
 Troop SC-2244 is chartered with <a href="https://www.eastpickens.org" target="_blank" class="faq">East Pickens Baptist Church</a>, a Southern Baptist Church located at 2244 Gentry Memorial Hwy between Pickens and Easley, SC. EastPickens.org
