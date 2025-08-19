@@ -1,4 +1,4 @@
-name: Deploy Dev Branch to Second Repo
+name: Mirror Dev Branch to Second Repo
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
-  deploy-dev:
+  mirror-dev:
     runs-on: ubuntu-latest
 
     steps:
@@ -14,25 +14,15 @@ jobs:
       uses: actions/checkout@v4
       with:
         ref: dev
-        fetch-depth: 0  # Fetch full history for proper git operations
+        fetch-depth: 0
 
-    # - name: Setup Ruby
-    #   uses: ruby/setup-ruby@v1
-    #   with:
-    #     ruby-version: '3.1'
-    #     bundler-cache: true
-
-    # - name: Build Jekyll site
-    #   run: |
-    #     bundle exec jekyll build
-
-    - name: Deploy to second repository
+    - name: Push dev branch to second repository
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         external_repository: traillife-sc2244/traillife-sc2244-dev.github.io
-        publish_branch: main  # Branch in the target repo to push to
-        publish_dir: ./_site  # Jekyll builds to _site directory
-        commit_message: 'Deploy from dev branch: ${{ github.sha }}'
+        publish_branch: main   # or whatever branch the second repo expects as its Pages source
+        publish_dir: ./        # push the entire repo contents
+        commit_message: 'Mirror dev branch: ${{ github.sha }}'
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
