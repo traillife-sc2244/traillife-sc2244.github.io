@@ -1,0 +1,41 @@
+name: Deploy Dev Branch to Second Repo
+
+on:
+  push:
+    branches: [ dev ]
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  deploy-dev:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout dev branch
+      uses: actions/checkout@v4
+      with:
+        ref: dev
+        fetch-depth: 0  # Fetch full history for proper git operations
+
+    - name: Setup Node.js (if needed for build)
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+      # Remove this step if you don't need to build your site
+
+    - name: Install dependencies and build (if needed)
+      run: |
+        npm install
+        npm run build
+      # Remove this step if you don't need to build your site
+
+    - name: Deploy to second repository
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        external_repository: traillife-sc2244/traillife-sc2244-dev.github.io
+        publish_branch: main  # Branch in the target repo to push to
+        publish_dir: ./  # Use ./dist if you have a build step
+        commit_message: 'Deploy from dev branch: ${{ github.sha }}'
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
