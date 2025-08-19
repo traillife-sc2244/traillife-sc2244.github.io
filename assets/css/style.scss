@@ -5,3 +5,225 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+// Trail Life USA Brand Colors
+$traillife-red: #C41E3A;
+$traillife-blue: #003366;
+$traillife-gold: #FFD700;
+$traillife-green: #228B22;
+$traillife-brown: #8B4513;
+
+// Hero Section
+.hero-section {
+  background: linear-gradient(135deg, $traillife-blue 0%, $traillife-red 100%);
+  color: white;
+  padding: 4rem 2rem;
+  margin: -2rem -2rem 2rem -2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/assets/images/TLUSA Logo.png') no-repeat center center;
+    background-size: 200px;
+    opacity: 0.1;
+    z-index: 1;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+  }
+}
+
+// Photo Gallery Section
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+
+  .photo-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    }
+
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .photo-content {
+      padding: 1rem;
+
+      h3 {
+        color: $traillife-blue;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        color: #666;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+// Meeting Info Box
+.meeting-info {
+  background: linear-gradient(45deg, $traillife-gold, #FFF8DC);
+  border: 2px solid $traillife-brown;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+  h2 {
+    color: $traillife-blue;
+    margin-top: 0;
+  }
+
+  strong {
+    color: $traillife-red;
+  }
+}
+
+// Quote Styling
+blockquote {
+  border-left: 4px solid $traillife-red;
+  background: rgba(196, 30, 58, 0.05);
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+
+  strong {
+    color: $traillife-blue;
+  }
+}
+
+// Call to Action
+.cta-section {
+  background: $traillife-green;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 2rem 0;
+
+  h2 {
+    color: white;
+    margin-top: 0;
+  }
+
+  a {
+    background: $traillife-gold;
+    color: $traillife-blue;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: white;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 1rem;
+    margin: -1rem -1rem 2rem -1rem;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+  }
+
+  .photo-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+// Se
+ction Headers
+h2 {
+  color: $traillife-blue;
+  border-bottom: 3px solid $traillife-red;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: $traillife-gold;
+  }
+}
+
+// Links
+a {
+  color: $traillife-red;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $traillife-blue;
+  }
+}
+
+// Welcome section styling
+.home > h2:first-of-type {
+  background: linear-gradient(45deg, $traillife-blue, $traillife-red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+// Enhanced responsive adjustments
+@media (max-width: 768px) {
+  .meeting-info, .cta-section {
+    margin: 1rem -1rem;
+    border-radius: 0;
+  }
+}
