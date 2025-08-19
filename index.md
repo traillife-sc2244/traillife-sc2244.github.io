@@ -23,7 +23,7 @@ Our goal in Troop 2244 is to develop Godly young men in the Pickens area that wi
   <div class="photo-card">
     <img src="/assets/images/gallery/2022_Summer_Adventure/e8bfeb_88f8b2a226914d1f881ec76136dfa5af~mv2.avif" alt="Summer Adventure">
     <div class="photo-content">
-      <h3>Summer Adventures</h3>
+      <h3>Adventures</h3>
       <p>Outdoor activities that build character and create lasting memories</p>
     </div>
   </div>
