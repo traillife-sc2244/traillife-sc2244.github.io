@@ -22,9 +22,9 @@ title: Trail Life - Troop SC-2244
 author:
   name: Trail Life Troop SC-2244
   email: traillifesc2244@gmail.com
-domain: traillife-sc2244.github.io
+domain: dev.traillifesc2244.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://traillife-sc2244.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: http://dev.traillifesc2244.com # the base hostname & protocol for your site, e.g. http://example.com
 # github_username:  traillife-sc2244
 partner:
   name: AHG SC-4224
