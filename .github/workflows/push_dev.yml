@@ -28,8 +28,8 @@ jobs:
         TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
         set -euo pipefail
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
         git clone --depth=1 https://x-access-token:${TOKEN}@github.com/${REPO2}.git repo2
         cd repo2
