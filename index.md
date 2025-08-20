@@ -14,10 +14,10 @@ Our goal in Troop 2244 is to develop Godly young men in the Pickens area that wi
 
 <div class="photo-gallery">
   <div class="photo-card">
-    <img src="/assets/images/TLUSA Logo.png" alt="Trail Life USA Logo">
+    <img src="/assets/images/Troop_Patch.jpg" alt="Troop SC-2244 Patch">
     <div class="photo-content">
-      <h3>Trail Life USA</h3>
-      <p>Christ-centered, boy-focused mentoring and discipleship journey</p>
+      <h3>Troop SC-2244</h3>
+      <p>Serving Pickens, mentoring young men in faith, service, and leadership.</p>
     </div>
   </div>
   <div class="photo-card">
@@ -28,7 +28,7 @@ Our goal in Troop 2244 is to develop Godly young men in the Pickens area that wi
     </div>
   </div>
   <div class="photo-card">
-    <img src="/assets/images/gallery/2022_EPBC_Workday/e8bfeb_4663709ea01b474d85e3cb64ce946884~mv2.jpg" alt="Community Service">
+    <img src="/assets/images/gallery/2022_EPBC_Workday/e8bfeb_78f1bbc252a946aca7e674722ca05698~mv2.avif" alt="Community Service">
     <div class="photo-content">
       <h3>Community Service</h3>
       <p>Teaching boys to serve others and make a positive impact</p>
@@ -60,6 +60,6 @@ Trail Life USA is a Church-Based, Christ-Centered, Boy-Focused mentoring and dis
 
 <div class="cta-section">
   <h2>🏕️ Join Our Adventure!</h2>
-  <p>The best support you can give is to join our troop and be a part of this great community. We welcome boys ages 5-17 and their families to experience the adventure, character development, and leadership opportunities that Trail Life USA provides.</p>
+  <p>lt's easy to become a part of this great community. We welcome boys ages 5-17 and their families to experience the adventure, character development, and leadership opportunities that Trail Life USA provides.</p>
   <a href="./contact">Get Started Today!</a>
 </div>

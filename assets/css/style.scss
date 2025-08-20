@@ -15,13 +15,19 @@ $traillife-brown: #8B4513;
 
 // Hero Section
 .hero-section {
-  background: linear-gradient(135deg, $traillife-blue 0%, $traillife-red 100%);
+  background:
+    linear-gradient(rgba(0, 51, 102, 0.4), rgba(196, 30, 58, 0.3)),
+    url('/assets/images/glassy_mountain.jpg');
+  background-size: cover;
+  background-position: center 40%;
+  background-repeat: no-repeat;
   color: white;
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
   margin: -2rem -2rem 2rem -2rem;
   text-align: center;
   position: relative;
   overflow: hidden;
+  min-height: 250px;
 
   &::before {
     content: '';
@@ -30,9 +36,9 @@ $traillife-brown: #8B4513;
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/assets/images/TLUSA Logo.png') no-repeat center center;
-    background-size: 200px;
-    opacity: 0.1;
+    // background: url('/assets/images/TLUSA Logo.png') no-repeat center center;
+    background-size: 150px;
+    opacity: 0.15;
     z-index: 1;
   }
 
@@ -44,13 +50,15 @@ $traillife-brown: #8B4513;
   h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    font-weight: bold;
   }
 
   .hero-subtitle {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-    opacity: 0.9;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    font-weight: 500;
   }
 }
 
@@ -97,21 +105,70 @@ $traillife-brown: #8B4513;
 
 // Meeting Info Box
 .meeting-info {
-  background: linear-gradient(45deg, $traillife-gold, #FFF8DC);
+  background:
+    linear-gradient(45deg, rgba(34, 139, 34, 0.4), rgba(0, 51, 102, 0.3)),
+    url('/assets/images/epbc_logo_photo.jpg');
+  background-size: auto 100%, cover;
+  background-position: center center, center center;
+  background-repeat: no-repeat, no-repeat;
   border: 2px solid $traillife-brown;
   border-radius: 10px;
   padding: 1.5rem;
   margin: 2rem 0;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  position: relative;
+  overflow: hidden;
+
+  // Additional overlay for better text readability
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.75);
+    z-index: 1;
+  }
+
+  // Ensure content is above the overlay
+  > * {
+    position: relative;
+    z-index: 2;
+  }
 
   h2 {
     color: $traillife-blue;
     margin-top: 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.9);
   }
 
   strong {
     color: $traillife-red;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.9);
   }
+
+  p {
+    color: #333;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.9);
+  }
+
+  a {
+    color: $traillife-blue;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.9);
+
+    &:hover {
+      color: $traillife-red;
+    }
+  }
+}
+
+#trail-life-usa-christ-centered-boy-focused {
+  text-align: center;
 }
 
 // Quote Styling
@@ -165,6 +222,8 @@ blockquote {
   .hero-section {
     padding: 2rem 1rem;
     margin: -1rem -1rem 2rem -1rem;
+    min-height: 250px;
+    background-position: center 25%;
 
     h1 {
       font-size: 2rem;
@@ -172,6 +231,10 @@ blockquote {
 
     .hero-subtitle {
       font-size: 1rem;
+    }
+
+    &::before {
+      background-size: 120px;
     }
   }
 
