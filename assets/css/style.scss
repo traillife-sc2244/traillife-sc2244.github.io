@@ -270,6 +270,10 @@ a {
   &:hover {
     color: $traillife-blue;
   }
+
+  &:visited {
+    color: $traillife-red;
+  }
 }
 
 // Welcome section styling

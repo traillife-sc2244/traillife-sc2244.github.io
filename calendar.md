@@ -13,4 +13,4 @@ __EVENT COLOR KEY:__
 
 __NOTE:__ *To RSVP to events and get the latest information, please use [TrailLife Connect (TLC)](https://www.traillifeconnect.com/)*
 
-You can also download a <a href="../../assets/docs/2025-2026_troop_calendar.pdf" target="_blank">printable version of the calendar</a>. If dates don't match, defer to the online version above or TrailLife Connect.
+You can also download one of our printable versions of the calendar available in a <a href="../../assets/docs/2025-2026_troop_calendar.pdf" target="_blank">12-month per page version (single page)</a> or <a href="../../assets/docs/2025-2026_troop_calendar_6months.pdf" target="_blank">6-month per page version (2 pages with larger text)</a>. <br /><br /><i>Note: If dates don't match, defer to the online version above or TrailLife Connect.</i>
