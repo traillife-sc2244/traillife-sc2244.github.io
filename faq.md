@@ -100,7 +100,7 @@ We recommend our sister program, the American Heritage Girls (AHG).
 <br /><br />
 <a href="https://www.eastpickens.org" target="_blank" class="faq">East Pickens Baptist Church</a> also hosts an AHG troop (SC-4224) that meets the 1<sup>st</sup> and 3<sup>rd</sup> Thursday nights at the same time and location as Trail Life.
 <br /><br />
-You can find more about troop SC-4224 at <a href="https://www.ahg4224.com" target="_blank" class="faq">AHG4224.com</a> or the national AHG program at <a href="https://americanheritagegirls.org/" target="_blank" class="faq">AmericanHeritageGirls.org</a>.
+You can find more about troop SC-4224 at <a href="https://www.ahgsc4224.com" target="_blank" class="faq">AHGSC4224.com</a> or the national AHG program at <a href="https://americanheritagegirls.org/" target="_blank" class="faq">AmericanHeritageGirls.org</a>.
 </details>
 
 
