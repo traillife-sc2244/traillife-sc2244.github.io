@@ -11,7 +11,7 @@ Please use the button below to pay annual local troop dues.
 <br /><br />
 You can also purchase handbooks and a custom troop patch during payment.
 <br /><br />
-<a href="https://eastpickens.churchcenter.com/registrations/events/2965278" class="link_button" target="_blank">Pay Troop Dues</a><!--&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://eastpickens.churchcenter.com/giving/to/next-gen-trail-life-fund?open-in-church-center-modal=true" class="link_button" data-church-center-modal>Pay Other Troop Expense</a>-->
+<a href="https://eastpickens.churchcenter.com/registrations/events/3831785" class="link_button" target="_blank">Pay Troop Dues</a><!--&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://eastpickens.churchcenter.com/giving/to/next-gen-trail-life-fund?open-in-church-center-modal=true" class="link_button" data-church-center-modal>Pay Other Troop Expense</a>-->
 
 ## Event Payments
 
